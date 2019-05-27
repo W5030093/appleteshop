@@ -1,33 +1,40 @@
 {
-  "pages":[
+  "pages": [
     "pages/one/index",
     "pages/one/edit",
-	"pages/one/essay",
+    "pages/one/essay",
     "pages/one/story",
     "pages/index/index",
     "pages/index/map",
     "pages/logs/logs1"
   ],
-  "window":{
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
     "navigationBarBackgroundColor": "#FFF",
     "navigationBarTitleText": "摄影之家",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle": "black",
     "backgroundTextStyle": "light",
     "backgroundColor": "#FFF",
     "enablePullDownRefresh": true,
-    "onReachBottomDistance":30
-  } ,
+    "onReachBottomDistance": 30
+  },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/one/index",
-      "text": "ONE",
-      "iconPath": "./source/one-un.png",
-      "selectedIconPath": "./source/one.png"
-    },{
+    "list": [
+      {
+        "pagePath": "pages/one/index",
+        "text": "ONE",
+        "iconPath": "./source/one-un.png",
+        "selectedIconPath": "./source/one.png"
+      },
+      {
         "pagePath": "pages/index/index",
         "text": "设置",
         "iconPath": "./source/set-un.png",
         "selectedIconPath": "./source/set.png"
-    }]
-  }
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

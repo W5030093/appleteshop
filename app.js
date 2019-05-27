@@ -37,6 +37,6 @@ App({
   audio:wx.createInnerAudioContext(),
   globalData: {
     userInfo: null,
-    play: [{ 'isPlay': 0, 'playUrl': '', 'playNow': 0, 'currentTime': 0, 'currentShowTime': '0:00'}]
+    play: [{ 'isPlay': 1, 'playUrl': '', 'playNow': 0, 'currentTime': 0, 'currentShowTime': '0:00'}]
   }
 })
